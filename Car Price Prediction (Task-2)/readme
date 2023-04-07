@@ -1,1 +1,19 @@
+Car Price Prediction Model
+This project aims to build a machine learning model that can predict the price of cars based on various features such as engine size, horsepower, fuel type, etc. The model is trained on a dataset of cars and their corresponding prices using the Random Forest regression algorithm.
 
+Dataset
+The dataset used in this project is the CarPrice.csv dataset, which contains information on various car models and their prices. The dataset can be downloaded from Kaggle and you can also download it from here i have provided the CSV file.
+Requirements
+To run the code in this project, you will need the following libraries:
+
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+pickle
+Usage
+To train the car price prediction model, simply run the carpriceprediction-task-2.ipynb script. This script will load the dataset, preprocess the data, train the model, and save the trained model as a pickle file.
+
+Credits
+This project was completed by Tejaswini Jaunjat as part of a machine learning Model.

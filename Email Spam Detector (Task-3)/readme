@@ -1,1 +1,42 @@
+Email Spam Detector
+This project is a Python-based email spam detector that uses machine learning to classify emails as either spam or non-spam. The dataset used for this project is the SMS Spam Collection dataset from Kaggle.
 
+Installation
+To run this project, you will need Python 3 and the following libraries:
+
+NumPy
+Pandas
+Scikit-learn
+NLTK
+You can install these libraries using pip:
+
+pip install numpy pandas scikit-learn nltk
+
+Usage
+!.Clone this repository to your local machine.
+
+2.Open a terminal or command prompt and navigate to the project directory.
+
+3.Run the email_spam_detector.py script to train the machine learning model and save it to a file:
+
+python email_spam_detector.py
+
+4.Once the model is saved, you can use it to classify new emails by running the classify_emails.py script:
+
+python classify_emails.py <input_file> <output_file>
+
+<input_file> is the path to a CSV file containing the emails to classify. The file should have two columns: text and label. text contains the email text, and label is the actual class of the email (spam or ham).
+<output_file> is the path to a CSV file where the classified emails will be saved. The file will have three columns: text, label, and predicted_label. text contains the email text, label is the actual class of the email, and predicted_label is the predicted class of the email (spam or ham).
+
+Acknowledgments
+This project was inspired by the SMS Spam Collection dataset from Kaggle, and the following resources:
+
+Scikit-learn documentation: https://scikit-learn.org/stable/documentation.html
+NLTK documentation: https://www.nltk.org/
+"Building a Spam Filter with Python and Scikit-learn" by Laurence Moroney: https://www.youtube.com/watch?v=7O4dpR_qO0U
+
+
+Future Work
+Experiment with different machine learning models and see which one works best for this dataset.
+Use more advanced natural language processing techniques to improve the accuracy of the model.
+Build a web interface for the email spam detector so that users can classify emails without having to run the scripts manually.
